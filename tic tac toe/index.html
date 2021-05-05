@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="container">
+        <div class="draw"></div>
+        <div class="title">Tic Tac Toe</div>
+        <div class="wrapper">
+            <div class="first_player">
+                <div class="info">
+                    <div class="score">0</div>
+                </div>
+                <div class="wrapper_anim">
+                    <div class="anim"></div> 
+                </div>   
+            </div>
+            <div class="game">
+                <div class="turn"></div>
+                <div class="field">
+                    <div class="row">
+                        <button type="button" class="game_btn">&nbsp;</button>
+                        <button type="button" class="game_btn">&nbsp;</button>
+                        <button type="button" class="game_btn">&nbsp;</button>
+                    </div>
+                    <div class="row">
+                        <button type="button" class="game_btn">&nbsp;</button>
+                        <button type="button" class="game_btn">&nbsp;</button>
+                        <button type="button" class="game_btn">&nbsp;</button>
+                    </div>
+                    <div class="row">
+                        <button type="button" class="game_btn">&nbsp;</button>
+                        <button type="button" class="game_btn">&nbsp;</button>
+                        <button type="button" class="game_btn">&nbsp;</button>
+                    </div>
+                </div>
+                <div class="start"><button>Start</button></div>
+            </div>
+            <div class="second_player">
+                <div class="info">
+                    <div class="score">0</div>
+                </div>
+                <div class="wrapper_anim">
+                    <div class="anim"></div> 
+                </div>   
+            </div>
+        </div>
+    </div>
+
+    <audio controls id="point">
+        <source src="./src/sounds/point.wav" type="audio/wav" >
+    </audio>
+
+    <script src="./src/js/bodymovin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.4/lottie_svg.min.js"></script>
+    <script src="./src/js/main.js"></script>
+</body>
+</html>
