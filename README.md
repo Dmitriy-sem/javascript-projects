@@ -1,2 +1,2 @@
 # javascript-projects
-There are vanilla javascript and react(without backend) projects.
+There are vanilla javascript - main branch and react(without backend) - master branch projects.
