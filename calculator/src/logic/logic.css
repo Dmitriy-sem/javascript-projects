@@ -1,0 +1,22 @@
+.btn{
+    background-color: white;
+    color: #000;
+    border: 1px solid #880c26;
+    font-size: 34px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.red{
+    background-color: #f2224e;
+    color: white;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.zero{
+    width: 300px;
+}

@@ -1,0 +1,100 @@
+.choosing{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 16px;
+    color: #5B5B5B;
+}
+
+.switchers i{
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 25px;
+    color: #c1c1c1;
+}
+
+.switchers i.active_icon{
+    color: #33BDE4;
+}
+
+.switchers i:last-child{
+    margin-right: 0;
+}
+
+
+.slider{
+    overflow-x: scroll;
+    display: flex;
+    margin-top: 16px;
+}
+
+.slider::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.slider_item{
+    margin-left: 16px;
+    background: #FFFFFF;
+    border: 1px solid #EDEFF2;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.04);
+    border-radius: 6px;
+    padding: 0 26px;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+.slider_item:first-child{
+    margin-left: 0;
+    padding: 0 7px;
+}
+
+.slider_item.active{
+    background: #F0FBFF;
+    border: 1px solid #33BDE4;
+}
+
+.day{
+    font-size: 16px;
+    text-align: center;
+    color: #5B5B5B;
+}
+
+.day_number{
+    font-weight: bold;
+    font-size: 24px;
+    color: #1D201F;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.slider_item.active .day{
+    color: #33BDE4;
+}
+
+.slider_item.active .day_number{
+    color: #33BDE4;
+}
+
+input[type="date"] {
+    border: 1px solid #EDEFF2;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    padding: 3px 5px 5px;
+    color: #c1c1c1;
+    font-weight: bold;
+}
+
+input[type="date"]:focus{
+    border: 1px solid #aaabac;
+    outline: none;
+}

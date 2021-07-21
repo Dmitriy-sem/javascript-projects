@@ -1,0 +1,22 @@
+.time_container{
+    margin-top: 32px;
+}
+
+.timer_item{
+    font-size: 24px;
+    color: #c1c1c1;
+    font-weight: normal;
+    margin-left: 16px;
+    cursor: pointer;
+    transition: color .3s ease-in;
+}
+
+.timer_item:first-child{
+    margin-left: 0;
+}
+
+.timer_item.active {
+    font-size: 32px;
+    color: #33bde4;
+    transform: translateY(-5px);
+}
